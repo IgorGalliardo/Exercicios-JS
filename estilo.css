@@ -52,7 +52,7 @@ p{
     text-align: center;
     font: normal 22pt arial;
 }
-#res {
+#res {/*this style will show three poins... blinking simulating the loading*/
     animation: blinker 1s linear infinite;
   }
   
