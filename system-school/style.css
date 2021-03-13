@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+    background-color: #084878;
+    color: white;
+}
+header{
+    width: 600px;
+    margin: auto;
+    background-color: rgb(16, 206, 79);
+    text-align: center;
+}
+header h1{
+    font: normal 28pt Arial;
+}
+section{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+}
+#content{
+    color: #1c1c1c;
+}
+table{
+    margin:auto;
+    font: normal 12pt Arial;
+}
+.tb-h{
+    background-color:rgb(117, 203, 142);
+}
+table tr.infor1{
+    background-color: rgb(207, 233, 217);
+}
+table tr.infor2{
+    background-color:white;
+}
+#res{
+    margin: auto;
+    text-align: center;
+    font: normal 14pt Arial;
+    color: #084878;
+}
+input[type=button]{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(117, 203, 142);
+    color: #1c1c1c;
+    font: normal 12pt Arial;
+    border-radius: 3px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+input[type=button]:hover{
+    width: 80px;
+    height: 30px;
+    background-color: #084878;
+    color: #FFF;
+    font: normal 12pt Arial;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+footer{
+    text-align: center;
+    font: normal 14pt Arial;
+    margin-top: 15px;
+}

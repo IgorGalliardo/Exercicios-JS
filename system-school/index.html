@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>School System</title>
+</head>
+<body>
+    <header>
+        <h1>Hello Teacher, <span id="tcr"></span></h1>
+    </header>
+    <section>
+        <div id="content">
+            <table border="0">
+                <th colspan="4" class="tb-h">Fill the informations below</th>
+                <tr class="infor1">
+                <td>Name</td> <td><input type="text" name="name" id="name" placeholder="Enter with student name"></td>
+                <td>Student ID</td> <td><input type="text" name="id" id="id" placeholder="Enter with student id"></td>
+                </tr>
+                <tr class="infor2">
+                <td>Course</td> <td><input type="text" name="course" id="course" placeholder="Enter with the course"></td>
+                <td>Class</td> <td><input type="text" name="class" id="class" placeholder="Enter with the class"></td>
+                </tr>
+                <tr class="infor1">
+                <td>HomeWork</td> <td><input type="number" name="hw" id="hw" placeholder="Enter with the student grade"></td>
+                <td>Test</td> <td><input type="number" name="ts" id="ts" placeholder="Enter with the student grade"></td>
+                </tr>
+                <th colspan="4">
+                    <input type="button" value="Result" onclick="calc()">
+                </th>
+            </table>
+            <div id="res"></div>    
+        </div>
+    </section>
+    <footer>
+        Thanks to use my school system!
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
