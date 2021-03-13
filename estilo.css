@@ -1,0 +1,76 @@
+body{
+    background-color: brown;
+}
+header{
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 363);
+}
+header h1{
+    color: black;
+    font: normal 18pt Arial;
+    text-align: center;
+    padding: 15px;
+}
+section{
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 363);
+}
+#calc{
+    color: #1c1c1c;
+    font-weight: bolder;
+    text-align: center;
+}
+#n1{
+    width: 80px;
+    height: 20px;
+    font-size: 18pt;
+}
+#n2{
+    width: 80px;
+    height: 20px;
+    font-size: 18pt;
+}
+input[type=number]{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p{
+    margin-left: 10px;
+}
+#operators{
+    margin-top: 20px;
+    width: 400px;
+}
+#operators input[type=button]{
+    width: 45px;
+    height: 30px;
+    margin: auto;
+}
+#res{
+    text-align: center;
+    font: normal 22pt arial;
+}
+#res {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+#res1{
+    text-align: center;
+    font: normal 15pt arial;
+    color: darkgreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font: normal 12pt Arial;
+}
